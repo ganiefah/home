@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
+html{
+    background: linear-gradient(180deg,
+    rgba(0,0,0,0.3) 0%,
+    rgba(0,0,0,0.8) 100%), url(/image/krustyBurger.jpg) no-repeat center fixed ;
+    background-size: cover; 
+}
+/* dissplays spaces between words and makes them centered */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #BD8D68;
+    z-index:25px;
+}
+/* changes size of logo and adjusts it to the margin */
+.logo {
+    width:  10rem;
+    margin: 10px 30px 10px 20px;
+}
+
+/* clears the decoration for the links as well as change colour */
+.nav-links {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+    padding: 16px;
+    color: black;
+}
+
+::selection {
+    color: #FFEBEB;
+}
+
+.headlink:hover {
+    color: #FFE6C7;
+    border: 3px solid #FFE6C7;
+    
+}
+.headlink {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 35px;
+    margin: 0 40px 0 0 ;
+    color: black;
+}
+
+
+.home h2{
+    text-align: center;
+    font-size:60px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.burger-image{
+    width:400px;
+    height: 300px;
+    margin-left: -30px;
+    margin-right: 40px;
+    outline: 10px solid #BD8D68;
+}
+
+.paragraph p{
+    margin-top: 20px;
+    display: flex;
+    background-color: #bd8d689a;
+
+}
+
+
+.paragraph {
+    margin-left:70px;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.paragraph2 p{
+    display: flex;
+    background-color:#bd8d689a;
+    
+}
+
+.paragraph2{
+    margin-right:450px;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.burger-image2{
+    width: 400px;
+    height: 300px;
+    margin-left:1100px;
+    margin-top: -80px;
+    margin-bottom: 100px;
+    margin-right: 30px;
+    outline: 10px solid#BD8D68;;
+    
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #BD8D68;
+    color: black;
+}
